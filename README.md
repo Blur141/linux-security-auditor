@@ -1,67 +1,44 @@
-Advanced Security Hardening and Auditing Tool (Linux)
-📌 Overview
+# Advanced Security Hardening and Auditing Tool (Linux)
 
-This is a beginner-friendly Linux Security Hardening and Auditing Tool created by Blur141.
+## 📌 Overview
+This is a beginner-friendly **Linux Security Hardening and Auditing Tool** created by Blur141.
 It helps you quickly check your Linux system for security basics such as:
 
-Pending system updates
-
-Firewall status
-
-Sudo usage logs
+- Pending system updates
+- Firewall status
+- Sudo usage logs
 
 The goal is to provide a simple, easy-to-understand tool for beginners to learn Linux security practices.
 
-⚡ Features
+## ⚡ Features
+- Detects your package manager (APT or Pacman)
+- Checks system updates
+- Verifies firewall status
+- Audits sudo usage logs
 
-Automatically detects your package manager (APT for Debian/Ubuntu or Pacman for Arch Linux).
+## 🚀 Usage
+1. Clone the repo:
+   git clone git@github.com:Blur141/linux-security-auditor.git
+   cd linux-security-auditor
 
-Checks for system updates and upgrades.
+2. Make the script executable (first time):
+   chmod +x hardening.sh
 
-Verifies the firewall status of your system.
+3. Run the tool:
+   ./hardening.sh
 
-Audits sudo usage logs.
+## 🧑‍💻 For Beginners
+- What is this? A script that performs basic security checks on Linux
+- Why use it? Learn Linux security auditing
+- Can I expand it? Yes, add rootkit checks, user audits, etc.
 
-🚀 Usage
+## 📂 Project Status
+✅ Basic features implemented  
+🔜 More checks coming soon
 
-Clone the repository:
+## 👤 Author
+Blur141 – portfolio project
 
-git clone git@github.com:Blur141/linux-security-auditor.git
-cd linux-security-auditor
-
-
-Make the script executable (first time only):
-
-chmod +x hardening.sh
-
-
-Run the tool:
-
-./hardening.sh
-
-🧑‍💻 For Beginners
-
-What is this?
-A script that performs basic security checks on Linux.
-
-Why use it?
-To learn Linux security auditing and get hands-on practice.
-
-Can I expand it?
-Absolutely! You can add more checks like rootkit detection, open ports, user audits, etc.
-
-📂 Project Status
-
-✅ Basic features implemented
-🔜 More security checks will be added in future updates
-
-👤 Author
-
-Created by Blur141
-This is a portfolio project for learning Linux security, scripting, and GitHub workflow.
-
-📌 Notes
-
-Tested on Debian/Ubuntu and Arch Linux.
-
-Ensure you run the script with proper permissions (sudo) to perform updates and audit logs.
+## 📌 Notes
+- Tested on Debian/Ubuntu and Arch Linux
+- Run with proper permissions (`sudo`)
