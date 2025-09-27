@@ -19,13 +19,13 @@ The goal is to provide a simple, easy-to-understand tool for beginners to learn 
 ## 🚀 Usage
 1. Clone the repo:
    git clone git@github.com:Blur141/linux-security-auditor.git
-   cd linux-security-auditor/script
+   **cd linux-security-auditor/script**
 
 2. Make the script executable (first time):
-   chmod +x hardening.sh
+   **chmod +x hardening.sh**
 
 3. Run the tool:
-   ./hardening.sh
+   **./hardening.sh**
 
 ## 🧑‍💻 For Beginners
 - What is this? A script that performs basic security checks on Linux
