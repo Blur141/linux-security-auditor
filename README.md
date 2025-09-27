@@ -25,14 +25,18 @@ Audits sudo usage logs.
 🚀 Usage
 
 Clone the repository:
-git clone git@github.com
-:Blur141/linux-security-auditor.git
+
+git clone git@github.com:Blur141/linux-security-auditor.git
 cd linux-security-auditor
 
+
 Make the script executable (first time only):
+
 chmod +x hardening.sh
 
+
 Run the tool:
+
 ./hardening.sh
 
 🧑‍💻 For Beginners
