@@ -32,14 +32,6 @@ The goal is to provide a simple, easy-to-understand tool for beginners to learn 
 - Why use it? Learn Linux security auditing
 - Can I expand it? Yes, add rootkit checks, user audits, etc.
 
-## 📂 Project Status
-✅ Basic features implemented  
-🔜 More checks coming soon
-
-## 📌 Notes
-- Tested on Debian/Ubuntu and Arch Linux
-- Run with proper permissions (`sudo`)
-
 ## 📝 How it Works
 
 The script `hardening.sh` performs the following tasks:
@@ -70,3 +62,14 @@ The script `hardening.sh` performs the following tasks:
 
 8. **System Summary**
    - Prints system info (`uname -a`), disk usage (`df -h`), and memory usage (`free -h`)
+
+This helps beginners understand **what each section does** and how it contributes to Linux security auditing.
+
+
+## 📂 Project Status
+✅ Basic features implemented  
+🔜 More checks coming soon
+
+## 📌 Notes
+- Tested on Debian/Ubuntu and Arch Linux
+- Run with proper permissions (`sudo`)
