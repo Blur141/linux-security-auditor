@@ -70,5 +70,3 @@ The script `hardening.sh` performs the following tasks:
 
 8. **System Summary**
    - Prints system info (`uname -a`), disk usage (`df -h`), and memory usage (`free -h`)
-
-This helps beginners understand **what each section does** and how it contributes to Linux security auditing.
