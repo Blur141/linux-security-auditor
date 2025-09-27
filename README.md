@@ -36,9 +36,6 @@ The goal is to provide a simple, easy-to-understand tool for beginners to learn 
 ✅ Basic features implemented  
 🔜 More checks coming soon
 
-## 👤 Author
-Blur141 – portfolio project
-
 ## 📌 Notes
 - Tested on Debian/Ubuntu and Arch Linux
 - Run with proper permissions (`sudo`)
